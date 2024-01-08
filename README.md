@@ -2,12 +2,15 @@
 
 A minimal ASP.NET Core web api project to showcase Entity Framework Core with both SQLite and in-memory database implementations. This basic web api features CRUD operations with Http Verb Operations (Get, Post, Put, and Delete). Swagger documentation is configured for test and verification of the web api. See quick steps and demo code to quickly create and setup Entity Framework Core database implementations. This project code is the result of a Microsoft Learn tutorial "Use a database with minimal API, Entity Framework Core, and ASP.NET Core".
 
-## Entity Framwork Core with In-Memory Database Implementation
+## Entity Framework Core with In-Memory Database Implementation
 
 ### Setup and Configuration
-Install the ```Microsoft.EntityFrameworkCore.InMemory```
+Install the ```Microsoft.EntityFrameworkCore.InMemory``` package.
+
 Add the database context to the webapplication builder services with options to use the in-memory database
+
 ``` builder.Services.AddDbContext<PizzaDb>(options => options.UseInMemoryDatabase("items")); ```
+
 ![in memory setup](/images/in-memory-setup.jpg)
 
 ### Demo Video
@@ -28,6 +31,10 @@ By the end of this video, you will have a better understanding of how to use the
 If you enjoyed this video, please like, share, and subscribe to our channel. Also, don't forget to check out our other videos on Entity Framework Core and web API development. Thank you for watching and have a great day! 😊
 
 ## Entity Framwork Core with SQLite Database Implementation
+
+
+
+![sqlite setup](/images/sqlite-setup.jpg)
 
 ### Demo Video
 
