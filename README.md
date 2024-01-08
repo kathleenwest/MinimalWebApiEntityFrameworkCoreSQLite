@@ -5,9 +5,12 @@ A minimal ASP.NET Core web api project to showcase Entity Framework Core with bo
 ## Entity Framwork Core with In-Memory Database Implementation
 
 ### Setup and Configuration
-Install the ```Microsoft.EntityFrameworkCore.InMemory```
+Install the ```Microsoft.EntityFrameworkCore.InMemory``` package.
+
 Add the database context to the webapplication builder services with options to use the in-memory database
+
 ``` builder.Services.AddDbContext<PizzaDb>(options => options.UseInMemoryDatabase("items")); ```
+
 ![in memory setup](/images/in-memory-setup.jpg)
 
 ### Demo Video
