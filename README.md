@@ -32,6 +32,10 @@ If you enjoyed this video, please like, share, and subscribe to our channel. Als
 
 ## Entity Framwork Core with SQLite Database Implementation
 
+
+
+![sqlite setup](/images/sqlite-setup.jpg)
+
 ### Demo Video
 
 Coming Soon
