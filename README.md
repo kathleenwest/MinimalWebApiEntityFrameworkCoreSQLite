@@ -32,9 +32,46 @@ If you enjoyed this video, please like, share, and subscribe to our channel. Als
 
 ## Entity Framwork Core with SQLite Database Implementation
 
-
-
 ![sqlite setup](/images/sqlite-setup.jpg)
+
+### Install Packages
+
+```Microsoft.EntityFrameworkCore.Sqlite```
+
+```Microsoft.EntityFrameworkCore.Design```
+
+### Add Setup Code to Program.cs
+
+```
+// SQLite Database Provider Setup
+
+// Connection string
+string? connectionString = builder.Configuration.GetConnectionString("Pizzas") ?? "Data Source=Pizzas.db";
+
+// Add database context using SQLite
+builder.Services.AddSqlite<PizzaDb>(connectionString);
+```
+### Install Tools for EF Core
+
+Tools for EF Core perform design-time development tasks. For example, they create migrations, apply migrations, and generate code for a model based on an existing database.
+
+```dotnet tool install --global dotnet-ef```
+
+### Rebuild Solution
+
+Recommend completing a rebuild to resolve potential errors encountered with the next steps
+
+### Generate Migration Files (for database)
+
+```dotnet ef migrations add InitialCreate```
+
+### Apply Migrations (Create Database and Schema)
+
+```dotnet ef database update```
+
+You should see a newly created Pizzas.db file in your project directory. 
+
+If you are having issues, first try a rebuild and then re-run the above commands. I recommend watching the demo video for this section or completing the Microsoft Learn course: [Use a database with minimal API, Entity Framework Core, and ASP.NET Core](https://learn.microsoft.com/en-us/training/modules/build-web-api-minimal-database/)
 
 ### Demo Video
 
