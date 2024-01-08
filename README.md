@@ -2,7 +2,7 @@
 
 A minimal ASP.NET Core web api project to showcase Entity Framework Core with both SQLite and in-memory database implementations. This basic web api features CRUD operations with Http Verb Operations (Get, Post, Put, and Delete). Swagger documentation is configured for test and verification of the web api. See quick steps and demo code to quickly create and setup Entity Framework Core database implementations. This project code is the result of a Microsoft Learn tutorial "Use a database with minimal API, Entity Framework Core, and ASP.NET Core".
 
-## Entity Framwork Core with In-Memory Database Implementation
+## Entity Framework Core with In-Memory Database Implementation
 
 ### Setup and Configuration
 Install the ```Microsoft.EntityFrameworkCore.InMemory``` package.
