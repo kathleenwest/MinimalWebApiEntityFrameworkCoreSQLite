@@ -30,7 +30,7 @@ By the end of this video, you will have a better understanding of how to use the
 
 If you enjoyed this video, please like, share, and subscribe to our channel. Also, don't forget to check out our other videos on Entity Framework Core and web API development. Thank you for watching and have a great day! 😊
 
-## Entity Framwork Core with SQLite Database Implementation
+## Entity Framework Core with SQLite Database Implementation
 
 ![sqlite setup](/images/sqlite-setup.jpg)
 
