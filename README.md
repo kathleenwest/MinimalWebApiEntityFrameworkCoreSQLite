@@ -2,7 +2,7 @@
 
 A minimal ASP.NET Core web api project to showcase Entity Framework Core with both SQLite and in-memory database implementations. This basic web api features CRUD operations with Http Verb Operations (Get, Post, Put, and Delete). Swagger documentation is configured for test and verification of the web api. See quick steps and demo code to quickly create and setup Entity Framework Core database implementations. This project code is the result of a Microsoft Learn tutorial "Use a database with minimal API, Entity Framework Core, and ASP.NET Core".
 
-## Entity Framework Core with In-Memory Database Implementation
+## Entity Framework Core with In-Memory Database Setup and Implementation
 
 ### Setup and Configuration
 Install the ```Microsoft.EntityFrameworkCore.InMemory``` package.
@@ -30,7 +30,7 @@ By the end of this video, you will have a better understanding of how to use the
 
 If you enjoyed this video, please like, share, and subscribe to our channel. Also, don't forget to check out our other videos on Entity Framework Core and web API development. Thank you for watching and have a great day! 😊
 
-## Entity Framework Core with SQLite Database Implementation
+## Entity Framework Core with SQLite Database Setup and Implementation
 
 ![sqlite setup](/images/sqlite-setup.jpg)
 
@@ -75,7 +75,20 @@ If you are having issues, first try a rebuild and then re-run the above commands
 
 ### Demo Video
 
-Coming Soon
+[![Watch the tutorial and demo video](/images/SQLiteDatabaseTitle.jpg)](https://www.youtube.com/watch?v=LG2Dv7gMN-s "Entity Framework Core SQLite Setup and Implementation")
+
+This tutorial and demo project will show how to set up, configure, and test a simple minimal web api with Microsoft Entity Framework Core SQLite database implementation.
+
+In this video, you will learn how to use Entity Framework Core with SQLite as the database provider for your web API project. You will see how to:
+
+- Install the necessary packages for Entity Framework Core and SQLite.
+- Configure the connection string and the database context in the Program file.
+- Generate and apply migrations to create the database schema and the Pizzas database file.
+- Test the web API to perform CRUD operations on the SQLite database using Swagger UI
+
+By the end of this video, you will have a working web API that can store and retrieve data from a SQLite database using Entity Framework Core. 
+
+If you enjoyed this video, please like, share, and subscribe to our channel. Also, don't forget to check out our other videos on Entity Framework Core and web API development. Thank you for watching and have a great day! 😊
 
 ## References
 
